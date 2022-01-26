@@ -55,7 +55,7 @@ jobs:
          #for installing invidividual modules
          #pip3 install Flask -t .
          #zip files into current directory
-         ##zip -r test-dep-dev.zip .
+         zip -r lambda_cicd_test.zip app.py
          
          #for installing chrome
          ##wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
